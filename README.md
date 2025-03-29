@@ -22,6 +22,18 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+# Metric Tracking API
+
+This project is a **NestJS-based Metric Tracking System**.
+
+## 🚀 Getting Started
+
+### **1. Clone the Repository**
+
+````sh
+git clone https://github.com/sonlam137216/nest-metrics.git
+cd your-repo
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
@@ -30,7 +42,7 @@
 
 ```bash
 $ yarn install
-```
+````
 
 ## Running the app
 
@@ -57,6 +69,16 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
+
+## 📌 Features
+
+- 🚀 **NestJS framework** for scalable architecture
+- 🗄️ **PostgreSQL** as the database
+- 📖 **Swagger documentation** for easy API exploration
+- 🎯 **Unit and integration tests** for reliability
+
+For more details, check out the API docs at:  
+📄 **[http://localhost:3000/documentation](http://localhost:3000/documentation)**
 
 ## Support
 
