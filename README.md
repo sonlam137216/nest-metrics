@@ -25,27 +25,12 @@ Copy the `.env.example` file and rename it to `.env`. Then, update the values as
 cp .env.example .env
 ```
 
-### **4. Start the Application**
-
-```sh
-yarn start:dev
-```
-
-### **5. Access Swagger API Documentation**
-
-Once the application is running, open your browser and go to:  
-🔗 **Swagger UI**: [http://localhost:3000/documentation](http://localhost:3000/documentation)
-
-Swagger provides an interactive interface to test API endpoints, view request/response examples, and see detailed parameter descriptions.
-
 ---
-
-## 🐳 Running with Docker
 
 1. **Build and Start the Containers**
 
 ```sh
-docker compose up --build
+docker compose up -d
 ```
 
 2. **Stop and Remove Containers**
@@ -55,6 +40,23 @@ docker compose down
 ```
 
 ---
+
+### **4. Start the Application**
+
+```sh
+yarn seed
+```
+
+```sh
+yarn dev
+```
+
+### **5. Access Swagger API Documentation**
+
+Once the application is running, open your browser and go to:  
+🔗 **Swagger UI**: [http://localhost:3000/documentation](http://localhost:3000/documentation)
+
+Swagger provides an interactive interface to test API endpoints, view request/response examples, and see detailed parameter descriptions.
 
 ## 📌 Features
 
